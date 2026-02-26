@@ -36,7 +36,7 @@ Quick start:
 ## Usage examples
 
 The sections below show realistic command sequences you can run in OpenCode.
-For the full per-command catalog, see `examples/minimal/commands.md`.
+For the full per-command catalog, see [commands.md](commands.md).
 
 ### 1) Capture and analyze a failure in minutes
 

@@ -89,8 +89,10 @@ This reports repeat-failure metrics so you can measure whether new rules are red
 ## Examples folder
 
 - `examples/minimal/opencode.json` - minimal plugin config for a project
-- `examples/minimal/README.md` - minimal setup walkthrough
-- `examples/minimal/commands.md` - description and example usage for every command
+- `examples/minimal/README.md` - minimal setup walkthrough and file map
+- `examples/minimal/commands.md` - full flag-by-flag reference for every command
+- `examples/minimal/playbooks.md` - end-to-end incident response and maintenance workflows
+- `examples/minimal/commands/` - per-command deep-dive examples
 
 ## Repository layout
 

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-postmortem-plugin",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "bunx tsc -p .",
+    "test": "bun test",
+    "lint": "bunx tsc -p . --noEmit",
+    "typecheck": "bunx tsc -p . --noEmit"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.2.15",
+    "zod": "4.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}

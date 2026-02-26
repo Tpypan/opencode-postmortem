@@ -1,0 +1,11 @@
+# Local orchestration artifacts
+.sisyphus/
+
+# Local nested checkout used during development
+opencode/
+
+# Build/dependency artifacts
+**/node_modules/
+**/dist/
+**/.turbo/
+*.tsbuildinfo

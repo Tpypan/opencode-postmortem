@@ -11,7 +11,7 @@ export default defineConfig([
 		outExtension: () => ({ js: ".js" }),
 	},
 	{
-		entry: { "postmortem.plugin": "src/index.ts" },
+		entry: { "postmortem.plugin": "src/postmortem.plugin.ts" },
 		outDir: "dist",
 		format: ["esm"],
 		noExternal: [/.*/],

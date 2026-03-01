@@ -1,6 +1,6 @@
 # Command Usage Guide
 
-This is the detailed reference for every slash command installed by `npx postmortem-init`.
+This is the detailed reference for every slash command installed by `npx --package agentpostmortem postmortem-init`.
 
 Conventions used in this guide:
 

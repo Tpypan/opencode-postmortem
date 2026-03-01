@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "opencode-postmortem-plugin",
+  "name": "agentpostmortem",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -8,7 +8,7 @@
   "description": "Postmortem workflow plugin for OpenCode: failure memory, prevention rules, guardrailed retry",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tpypan/opencode-postmortem.git"
+    "url": "git+https://github.com/Tpypan/AgentPostmortem.git"
   },
   "keywords": [
     "opencode",
@@ -58,7 +58,13 @@
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/tpypan/opencode-postmortem/issues"
+    "url": "https://github.com/Tpypan/AgentPostmortem/issues"
   },
-  "homepage": "https://github.com/tpypan/opencode-postmortem#readme"
+  "homepage": "https://github.com/Tpypan/AgentPostmortem#readme",
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

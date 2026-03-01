@@ -153,7 +153,7 @@ async function main() {
 
   console.log("")
   console.log(`Done. Copied ${copied} file(s), skipped ${skipped} file(s).`)
-  console.log("Next step: Add 'opencode-postmortem-plugin' to your opencode.json plugin array.")
+  console.log("Next step: Add 'agentpostmortem' to your opencode.json plugin array.")
 }
 
 main().catch((error: unknown) => {

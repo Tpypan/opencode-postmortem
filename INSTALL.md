@@ -9,7 +9,7 @@ In your project root, add the plugin to `opencode.json` (create the file if it d
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": ["opencode-postmortem-plugin"]
+  "plugin": ["agentpostmortem"]
 }
 ```
 
@@ -20,7 +20,7 @@ OpenCode automatically installs npm plugins using Bun. No `npm install` or `bun 
 Run the init command to copy command wrappers and skill definitions into your project:
 
 ```bash
-npx postmortem-init
+npx --package agentpostmortem postmortem-init
 ```
 
 This copies:
@@ -42,8 +42,10 @@ If you cannot use npm or prefer a self-contained setup, use the bundled plugin f
 
 ### 1. Download the bundled plugin
 
-Get `dist/postmortem.plugin.js` from the [GitHub releases page](https://github.com/tpypan/opencode-postmortem/releases) (or build it yourself: `bun run build`).
-
+Get `dist/postmortem.plugin.js` from the npm CDN (or build it yourself: `bun run build`).
+```bash
+curl -fsSL https://unpkg.com/agentpostmortem@latest/dist/postmortem.plugin.js -o postmortem.plugin.js
+```
 ### 2. Place it in your project
 
 ```bash
@@ -58,7 +60,7 @@ OpenCode automatically loads all `.js` and `.ts` files from `.opencode/plugins/`
 Run the init command (requires Node.js):
 
 ```bash
-npx postmortem-init
+npx --package agentpostmortem postmortem-init
 ```
 
 Or manually copy templates from the [src/templates/](src/templates/) directory.

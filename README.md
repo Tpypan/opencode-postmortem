@@ -1,6 +1,6 @@
-# OpenCode Postmortem Plugin
+# AgentPostmortem
 
-`opencode-postmortem-plugin` adds a complete postmortem loop to OpenCode: capture failures, analyze root causes, create guardrails, and retry with context-aware constraints.
+`agentpostmortem` adds a complete postmortem loop to OpenCode: capture failures, analyze root causes, create guardrails, and retry with context-aware constraints.
 
 This repository is the standalone plugin distribution (not the OpenCode source tree).
 
@@ -29,8 +29,8 @@ See [INSTALL.md](INSTALL.md) for full setup.
 
 Quick start:
 
-1. Add `"opencode-postmortem-plugin"` to your `opencode.json` plugin array.
-2. Run `npx postmortem-init` in your project.
+1. Add "agentpostmortem" to your `opencode.json` plugin array.
+2. Run `npx --package agentpostmortem postmortem-init` in your project.
 3. Restart OpenCode.
 
 ## Usage examples
